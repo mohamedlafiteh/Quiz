@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz Project</title>
+    <script src="quiz.js"></script>
+  </head>
+  <body>
+    <h1 id="intro">This is A quiz online</h1>
+    <form id="quiz" name="quiz">
+      <p>What is Lauren's favorite food?</p>
+      <input id="texbox" type="text" name="question1" />
+      <p>What is your favorite animal?</p>
+      <input
+        type="radio"
+        id="mc"
+        name="question2"
+        value="Crocodile"
+      />Crocodile<br />
+      <input type="radio" id="mc" name="question2" value="Dog" />Dog<br />
+      <p>What day was our first meeting?</p>
+      <input
+        type="radio"
+        id="mc"
+        name="question3"
+        value="Thursday"
+      />Thursday<br />
+      <input type="radio" id="mc" name="question3" value="Sunday" />Sunday<br />
+      <input
+        id="button"
+        type="button"
+        value="I am finished"
+        onclick="check();"
+      />
+    </form>
+    <div id="after_submit">
+      <p id="message"></p>
+      <p id="number_correct"></p>
+      <!--EX 
+      <img id="picture" />
+      -->
+    </div>
+  </body>
+</html>
