@@ -13,7 +13,11 @@ function check() {
   if (question3 === "Thursday") {
     correct++;
   }
-  var messages = ["Great Job", "That's Okay", "You really need to do Better"];
+  var messages = [
+    "Great Job Luaren",
+    "That's Okay Lauren",
+    "You really need to do Better Lauren"
+  ];
   //var pictures = ["imges/win2.gif", "imgeslose2.gif", "imges/lose1.gif"];
   var range;
   if (correct < 1) {
