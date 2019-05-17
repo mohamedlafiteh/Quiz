@@ -4,19 +4,19 @@ function check() {
   var question3 = document.quiz.question3.value;
   var correct = 0;
 
-  if (question1 === "Whisky") {
+  if (question1 === "Cyf") {
     correct++;
   }
-  if (question2 === "Cheeta") {
+  if (question2 === "Operating System") {
     correct++;
   }
-  if (question3 === "IceLand") {
+  if (question3 === "Flash") {
     correct++;
   }
   var messages = [
-    "Great Job Lauren",
-    "That's Okay Lauren",
-    "You really need to do Better Lauren"
+    " Great Job ",
+    " That's Okay ",
+    " You really need to do Better"
   ];
   var pictures = ["imges/s1.gif ", " imges/lose1.gif ", " imges/lose2.gif "];
   var range;
