@@ -4,21 +4,21 @@ function check() {
   var question3 = document.quiz.question3.value;
   var correct = 0;
 
-  if (question1 === "Pizza") {
+  if (question1 === "Whisky") {
     correct++;
   }
-  if (question2 === "Crocodile") {
+  if (question2 === "Cheeta") {
     correct++;
   }
-  if (question3 === "Thursday") {
+  if (question3 === "IceLand") {
     correct++;
   }
   var messages = [
-    "Great Job Luaren",
+    "Great Job Lauren",
     "That's Okay Lauren",
     "You really need to do Better Lauren"
   ];
-  //var pictures = ["imges/win2.gif", "imgeslose2.gif", "imges/lose1.gif"];
+  var pictures = ["imges/s1.gif ", " imges/lose1.gif ", " imges/lose2.gif "];
   var range;
   if (correct < 1) {
     range = 2;
@@ -33,5 +33,5 @@ function check() {
   document.getElementById("after_submit").style.visibility = "visible";
   document.getElementById("number_correct").innerHTML =
     "You Got " + correct + "correct.";
-  //document.getElementById("picture").src = pictures[range];
+  document.getElementById("picture").src = pictures[range];
 }
