@@ -14,9 +14,9 @@ function check() {
     correct++;
   }
   var messages = [
-    " Great Job ",
-    " That's Okay ",
-    " You really need to do Better"
+    " Great Job Jen ",
+    " That's Okay Jen ",
+    " You really need to do Better Jen",
   ];
   var pictures = ["imges/s1.gif ", " imges/lose1.gif ", " imges/lose2.gif "];
   var range;
