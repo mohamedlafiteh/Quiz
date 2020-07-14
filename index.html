@@ -5,40 +5,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Quiz tes for you Jen, are you ready?</title>
+    <title>Test for you Jen, are you ready?</title>
     <script src="quiz.js"></script>
   </head>
   <body>
-    <h1 id="intro">Quiz Practise for you Jen.</h1>
-    <form id="quiz" name="quiz">
-      <p>What Is your favorite animal?</p>
-      <input id="texbox" type="text" name="question1" />
-      <p>'OS' computer abbreviation usually means ?</p>
-      <input
-        type="radio"
-        id="mc"
-        name="question2"
-        value="Operating System"
-      />Operating System<br />
-      <input type="radio" id="mc" name="question2" value="Open Software" />Open
-      Software<br />
-      <p>
-        Which is a type of Electrically-Erasable Programmable Read-Only Memory?
-      </p>
-      <input type="radio" id="mc" name="question3" value="Flange" />Flange<br />
-      <input type="radio" id="mc" name="question3" value="Flash" />Flash <br />
-      <input
-        id="button"
-        type="button"
-        value="I am finished"
-        onclick="check();"
-      />
-    </form>
-    <div id="after_submit">
-      <p id="message"></p>
-      <p id="number_correct"></p>
+    <div class="container-a">
+      <h1 id="intro">Quiz Practice for you Jen.</h1>
+      <form id="quiz" name="quiz" class="form">
+        <div class="input-1">
+          <p>What Is your favorite animal?</p>
+          <input id="texbox" type="text" name="question1" />
+        </div>
+        <p>'OS' computer abbreviation usually means ?</p>
+        <input
+          type="radio"
+          id="mc"
+          name="question2"
+          value="Operating System"
+        />Operating System<br />
+        <input
+          type="radio"
+          id="mc"
+          name="question2"
+          value="Open Software"
+        />Open Software<br />
+        <input type="radio" id="mc" name="question2" value="Open Source" />Open
+        Source<br />
+        <p>
+          How far is Libya from Glasgow buy plane?
+        </p>
+        <input type="radio" id="mc" name="question3" value="two" />2 Hours<br />
+        <input type="radio" id="mc" name="question3" value="three" />3 Hours
 
-      <img id="picture" />
+        <br />
+        <input type="radio" id="mc" name="question3" value="four" />4 Hours
+
+        <br />
+        <p>
+          You know some Italian nad French, let's see your vocabulary, how to
+          say I am happy in Italian?
+        </p>
+        <input type="radio" id="mc" name="question4" value="sono felice" />sono
+        felice<br />
+        <input type="radio" id="mc" name="question4" value="sono triste" />sono
+        triste<br />
+        <input type="radio" id="mc" name="question4" value="sono stanco" />sono
+        stanco<br />
+        <input
+          class="f-button"
+          id="button"
+          type="button"
+          value="I am finished"
+          onclick="check();"
+        />
+      </form>
+      <div id="after_submit">
+        <p id="message"></p>
+        <p id="number_correct"></p>
+
+        <img id="picture" />
+      </div>
     </div>
   </body>
 </html>
